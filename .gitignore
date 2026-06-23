@@ -1,0 +1,5 @@
+opl_data.csv
+*.png
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
