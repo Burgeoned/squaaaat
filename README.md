@@ -1,5 +1,12 @@
 # How Many People in the World Can Squat 315 / 405 / 495?
 
+> **Superseded (July 2026):** the final harmonized model for all three lifts lives in
+> [`../sbd_final`](../sbd_final). Squat numbers there match this model within rounding; the
+> final version adds women's milestones (225/315/405), CIs on every per-sex count, and one
+> shared engine across lifts. Note: this model's SBD-comparison reel slide (`reel_04b_sbd.png`)
+> shows deadlift 405 = 4.38M, an older figure superseded by the deadlift model's own 5.09M.
+> This README documents the model as originally published.
+
 A data-driven estimate of how rare squatting 3, 4, and 5 plates actually is — across all 8.2 billion people on Earth.
 
 The bench press is almost entirely a gym movement: you need a bench and a barbell, full stop. The squat is different — leg strength shows up in military training, combat sports, manual labor, and team sports, often without anyone ever touching a squat rack. So a naive "gym-goers only" model undercounts who can actually squat heavy. This project tries to count everyone who plausibly could, without double-counting anyone, and reports the result with honest uncertainty rather than a single made-up number.
